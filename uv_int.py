@@ -36,7 +36,8 @@ class UV_int_weld(bpy.types.Operator):
     bl_options = {'REGISTER', 'UNDO'}
 
     def execute(self, context):
-        bpy.ops.uv.weld()
+        if bpy.context.active_object and bpy.context.active_object.data.uv_layers.active:
+            bpy.ops.uv.weld()
         return {'FINISHED'}
 
 
