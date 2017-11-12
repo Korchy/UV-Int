@@ -5,8 +5,8 @@ bl_info = {
     'version': (1, 0, 0),
     'blender': (2, 79, 0),
     'location': 'T-Panel > UV-Int',
-    'wiki_url': 'https://b3d.interplanety.org/uv-int/',
-    'tracker_url': 'https://b3d.interplanety.org/uv-int/',
+    'wiki_url': 'https://b3d.interplanety.org/en/uv-int-add-on/',
+    'tracker_url': 'https://b3d.interplanety.org/en/uv-int-add-on/',
     'description': 'UV-Int - some additional tools for working with uv-map'
 }
 
