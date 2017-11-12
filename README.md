@@ -15,6 +15,8 @@ Location: UV/Image Editor window - T-Panel - UV-Int
 
 <img src="https://b3d.interplanety.org/wp-content/upload_content/2017/11/sample1.gif" title="UV-Int" width = 600>
 
+<img src="https://b3d.interplanety.org/wp-content/upload_content/2017/11/sample2.gif" title="UV-Int" width = 600>
+
 ===============================================================================
 Tested with Blender versions:
 
