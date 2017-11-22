@@ -10,6 +10,7 @@ class UV_int_panel(bpy.types.Panel):
 
     def draw(self, context):
         self.layout.operator('uv_int.separate_meshloops', icon = 'UNLINKED', text = 'Seam')
+        self.layout.operator('uv_int.separate_meshloops_by_edge', icon = 'UNLINKED', text = 'Seam by edge')
         self.layout.operator('uv_int.weld_meshloops', icon = 'LINKED', text = 'Weld')
 
 
