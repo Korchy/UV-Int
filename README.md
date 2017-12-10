@@ -1,17 +1,17 @@
 # UV-Int
 Blender add-on with some extended functionality for working with UV-Maps.
 
+Author: Nikita Akimov interplanety@interplanety.org
+
 <a href="https://b3d.interplanety.org/en/uv-int-add-on/">Add-on web site</a>
 
 <img src="https://b3d.interplanety.org/wp-content/upload_content/2017/11/01-400x273.png" title="UV-Int">
 
-===============================================================================
-Installation
+**Installation**
 
 User Preferences - Addons - Install from file - select downloaded archive
 
-===============================================================================
-Usage
+**Usage**
 
 Location: UV/Image Editor window - T-Panel - UV-Int
 
@@ -21,13 +21,11 @@ Location: UV/Image Editor window - T-Panel - UV-Int
 
 <img src="https://b3d.interplanety.org/wp-content/upload_content/2017/11/sample3.gif" title="Sample 3" width = 600>
 
-===============================================================================
-Tested with Blender versions:
+**Tested with Blender versions:**
 
 2.79
 
-===============================================================================
-Version history:
+**Version history:**
 
 1.0.0
 - This release

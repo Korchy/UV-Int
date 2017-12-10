@@ -1,3 +1,6 @@
+# Nikita Akimov
+# interplanety@interplanety.org
+
 from .Polygon2d import Polygon2d
 
 

@@ -1,3 +1,6 @@
+# Nikita Akimov
+# interplanety@interplanety.org
+
 from .Vector2d import Vector2d
 from .VertexUv import VertexUv
 from .EdgeUv import EdgeUv

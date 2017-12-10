@@ -1,4 +1,6 @@
-from .VertexUv import VertexUv
+# Nikita Akimov
+# interplanety@interplanety.org
+
 from .Vector2d import Vector2d
 
 

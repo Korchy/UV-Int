@@ -1,3 +1,6 @@
+# Nikita Akimov
+# interplanety@interplanety.org
+
 import mathutils
 from .Vector2d import Vector2d
 

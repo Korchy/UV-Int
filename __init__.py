@@ -1,3 +1,6 @@
+# Nikita Akimov
+# interplanety@interplanety.org
+
 bl_info = {
     'name': 'UV-Int',
     'category': 'UV',

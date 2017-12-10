@@ -1,3 +1,6 @@
+# Nikita Akimov
+# interplanety@interplanety.org
+
 import bpy
 from .Uvmap import Uvmap
 from .Polygon2d import Polygon2d
