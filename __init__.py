@@ -1,6 +1,10 @@
 # Nikita Akimov
 # interplanety@interplanety.org
 
+from .addon import Addon
+from . import uv_int
+from . import uv_int_panel
+
 bl_info = {
     'name': 'UV-Int',
     'category': 'UV',
@@ -13,18 +17,19 @@ bl_info = {
     'description': 'UV-Int - some additional tools for working with uv-map'
 }
 
-from . import uv_int
-from . import uv_int_panel
-
 
 def register():
-    uv_int.register()
-    uv_int_panel.register()
+    if not Addon.dev_mode():
+        uv_int.register()
+        uv_int_panel.register()
+    else:
+        print('It seems you are trying to use the dev version of the ' + bl_info['name'] + ' add-on. It may work not properly. Please download and use the release version!')
 
 
 def unregister():
-    uv_int.unregister()
-    uv_int_panel.unregister()
+    if not Addon.dev_mode():
+        uv_int.unregister()
+        uv_int_panel.unregister()
 
 
 if __name__ == "__main__":
